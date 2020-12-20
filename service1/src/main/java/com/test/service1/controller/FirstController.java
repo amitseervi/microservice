@@ -11,6 +11,6 @@ class FirstController {
 
     @GetMapping("/test")
     public ResponseEntity<String> test() {
-        return ResponseEntity.ok("Test successfull");
+        return ResponseEntity.ok("First Test successfull");
     }
 }
